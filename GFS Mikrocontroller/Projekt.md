@@ -1,0 +1,1 @@
+Als Projekt habe ich ein einfaches Thermometer gebaut, welches die Temperatur und die Luftfeuchtigkeit auf einem LCD anzeigt.

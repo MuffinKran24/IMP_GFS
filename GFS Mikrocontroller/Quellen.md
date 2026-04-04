@@ -1,0 +1,4 @@
+- https://de.wikipedia.org/wiki/Mikrocontroller
+- https://en.wikipedia.org/wiki/ATmega328#
+- https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/ATmega48A-PA-88A-PA-168A-PA-328-P-DS-DS40002061B.pdf
+- 

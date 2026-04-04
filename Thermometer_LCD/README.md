@@ -6,3 +6,5 @@
 - DHT11 Humidity & Temperature Sensor
 - 10K Potentiometer
 - eine Menge Kabel
+
+
