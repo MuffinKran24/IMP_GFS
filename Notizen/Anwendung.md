@@ -1,2 +1,0 @@
-Mikrocontroller werden für alle möglichen eingebetteten Systeme verwendet wie zum Beispiel in Haushaltsgeräten, in programmierbaren Maschinen, zum Beispiel 3D Drucker oder Fräsen, in Steuergeräten für Fahrzeuge also ABS, Airbagsteuerung, Motorkontrollsysteme usw. oder auch in Robotern. Mikrocontroller sind aber auch in Chipkarten oder Uhren verbaut.
-Sie sind auch in praktisch allen Computer-Peripheriegeräten verbaut also Tastaturen, Mäuse, Drucker, Scanner usw..

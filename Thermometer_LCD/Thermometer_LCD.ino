@@ -14,8 +14,8 @@
  * wiper to LCD VO pin (pin 3)
 */
 
-#include <LiquidCrystal.h> // LCD-Bibliothek hinzufügen
-#include <DHT.h> // DHT-Bibliothek hinzufügen
+#include <LiquidCrystal.h> // LCD-Bibliothek für das LCD hinzufügen
+#include <DHT.h> // DHT-Bibliothek für den Sensor hinzufügen
 
 #define DHTPIN 8 // Rückgabe Pin des DHT definieren, in diesem Fall digital IO Pin 8
 #define DHTTYPE DHT11 // DHT-Typ definieren, in diesem Fall ist es der DHT11
@@ -29,15 +29,16 @@ LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
 void setup() {
   Serial.begin(9600); // seriellen Monitor starten
   dht.begin(); // Temperatur- und Luftfeuchtigkeitsaufnahme starten
-  delay(1000);
+  delay(1000); // wartet 1000ms
   Serial.println("DHT11 gestartet");
   
-  lcd.begin(16, 2);
+  lcd.begin(16, 2); // startet das LCD
 }
 
 void loop() {
-  float temperature = dht.readTemperature();
-  float humidity = dht.readHumidity();
+  float temperature = dht.readTemperature(); // speichert die Temperatur in einer Variable "temperature"
+  float humidity = dht.readHumidity(); // speichert die Luftfeuchtigkeit in einer Variable "humidity"
+
 
   if (isnan(temperature) || isnan(humidity)) { // Überprüfen ob der ausgegebene Wert eine Zahl ist
     Serial.println("Fehler beim Auslesen");
@@ -45,7 +46,7 @@ void loop() {
     return;
   }
 
-  // zum Überprüfen der Werte im seriellen Monitor
+  // Ausgeben der Werte im seriellen Monitor
   Serial.print(temperature);
   Serial.println(" °C");
 
@@ -57,10 +58,10 @@ void loop() {
   delay(2000);
 
   lcd.setCursor(0, 0); // der Cursor wird auf den ersten Platz in der ersten Zeile gesetzt
-  lcd.print(temperature);
+  lcd.print(temperature); // das LCD zeigt die Temperatur in der ersten Zeile an
   lcd.print(" C");
 
   lcd.setCursor(0, 1); // der Cursor wird auf den ersten Platz in der zweiten Zeile gesetzt
-  lcd.print(humidity);
+  lcd.print(humidity); // das LCD zeigt die Luftfeuchtigkeit in der zweiten Zeile an
   lcd.print(" %");
 }
