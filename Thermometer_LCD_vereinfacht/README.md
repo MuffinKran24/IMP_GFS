@@ -4,5 +4,5 @@
 - Arduino UNO R3
 - LCD-1602A
 - DHT11 Humidity & Temperature Sensor
-- 10K Potentiometer
+- 10K Potenziometer
 - eine Menge Kabel
