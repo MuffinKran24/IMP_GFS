@@ -8,8 +8,8 @@ int main(void) {
 
   while(1) {
     PORTB = PORTB | (1 << PORTB5);
-    _delay_ms(1000); // Eine Sekunde warten
+    _delay_ms(500); // Eine halbe Sekunde warten
     PORTB = PORTB & ~(1 << PORTB5);
-    _delay_ms(1000); // Noch eine Sekunde warten
+    _delay_ms(500); // Noch eine halbe Sekunde warten
   }
 }
