@@ -4,12 +4,12 @@
 #include <util/delay.h> // delay macro importieren
 
 int main(void) {
-  DDRB = DDRB | (1 << DDB5); // 
+  DDRB = DDRB | (1 << DDB5); // Eingebaute LED auf Output setzen
 
   while(1) {
-    PORTB = PORTB | (1 << PORTB5);
+    PORTB = PORTB | (1 << PORTB5); // Eingebaute LED high setzen
     _delay_ms(500); // Eine halbe Sekunde warten
-    PORTB = PORTB & ~(1 << PORTB5);
+    PORTB = PORTB & ~(1 << PORTB5); // Eingebaute LED low setzen
     _delay_ms(500); // Noch eine halbe Sekunde warten
   }
 }
