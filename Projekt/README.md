@@ -9,11 +9,11 @@
 
 ## Abhängigkeiten:
 
-### - Arduino IDE
+- ### Arduino IDE
 - DHT sensor library
 - LiquidCrystal library
 
-### - bare metal
+- ### bare metal
 - avrdude
 - avr-gcc
 - avr-libc
