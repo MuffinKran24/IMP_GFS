@@ -1,9 +1,31 @@
 // Das Thermometer mit so wenigen Bibliotheken und so direkt wie möglich
+
 /*
-#include <stdio.h>
+  The circuit:
+ * LCD RS pin to digital pin 12
+ * LCD Enable pin to digital pin 11
+ * LCD D4 pin to digital pin 5
+ * LCD D5 pin to digital pin 4
+ * LCD D6 pin to digital pin 3
+ * LCD D7 pin to digital pin 2
+ * LCD R/W pin to ground
+ * LCD VSS pin to ground
+ * LCD VCC pin to 5V
+ * 10K resistor:
+ * ends to +5V and ground
+ * wiper to LCD VO pin (pin 3)
+*/
+
+#define F_CPU 16000000UL
 #include <avr/io.h>
-#include <avr/interrupt.h>
 #include <util/delay.h>
+
+
+
+
+lcd_init() {
+
+}
 
 int main(void) {
 
@@ -18,8 +40,8 @@ DDRB |= (1<<PB5);
 
   }
 }
-*/
 
+/*
 #define F_CPU 16000000UL
 #include <avr/io.h>
 #include <util/delay.h>
@@ -41,12 +63,17 @@ DDRB |= (1<<PB5);
 
 // --- LCD FUNKTIONEN ---
 void lcd_strobe(void) {
-    LCD_PORT_CONTROL |= (1<<EN_PIN); _delay_us(1); LCD_PORT_CONTROL &= ~(1<<EN_PIN); _delay_us(100);
+    LCD_PORT_CONTROL |= (1<<EN_PIN);
+    _delay_us(1);
+    LCD_PORT_CONTROL &= ~(1<<EN_PIN);
+    _delay_us(100);
 }
 void lcd_write_4bit(uint8_t val) {
     LCD_PORT_DATA &= ~((1<<PD2)|(1<<PD3)|(1<<PD4)|(1<<PD5));
-    if(val & 0x08) LCD_PORT_DATA |= (1<<PD2); if(val & 0x04) LCD_PORT_DATA |= (1<<PD3);
-    if(val & 0x02) LCD_PORT_DATA |= (1<<PD4); if(val & 0x01) LCD_PORT_DATA |= (1<<PD5);
+    if(val & 0x08) LCD_PORT_DATA |= (1<<PD2);
+    if(val & 0x04) LCD_PORT_DATA |= (1<<PD3);
+    if(val & 0x02) LCD_PORT_DATA |= (1<<PD4);
+    if(val & 0x01) LCD_PORT_DATA |= (1<<PD5);
     lcd_strobe();
 }
 void lcd_send(uint8_t data, uint8_t rs) {
@@ -139,3 +166,4 @@ int main(void) {
         _delay_ms(2000); // DHT11 braucht Zeit zwischen Messungen
     }
 }
+*/
