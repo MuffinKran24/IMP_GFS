@@ -20,24 +20,17 @@
 #include <avr/io.h>
 #include <util/delay.h>
 
-
-
-
-lcd_init() {
-
+void lcd_init(void) {
+  
 }
 
 int main(void) {
-
-DDRB |= (1<<PB5);
-   
+  DDRB |= (1<<PB5);
   while(1) {
-    
     PORTB |= (1<<PB5);
     _delay_ms(1000);
     PORTB &= ~(1<<PB5);
     _delay_ms(1000);
-
   }
 }
 
