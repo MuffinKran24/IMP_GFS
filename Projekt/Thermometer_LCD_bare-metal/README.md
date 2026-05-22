@@ -4,3 +4,7 @@
 - [ ] function to start lcd
 - [ ] function to write on lcd
 - [ ] function to read temperature or humidity from dht
+
+```bash
+make thermometer
+```
