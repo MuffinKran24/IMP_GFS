@@ -40,7 +40,7 @@ void loop() {
   float humidity = dht.readHumidity(); // speichert die Luftfeuchtigkeit in einer Variable "humidity"
 
 
-  if (isnan(temperature) || isnan(humidity)) { // Überprüfen ob der ausgegebene Wert eine Zahl ist
+  if (isnan(temperature) || isnan(humidity)) { // überprüfen ob der ausgegebene Wert eine Zahl ist
     Serial.println("Fehler beim Auslesen");
     delay(2000);
     return;
