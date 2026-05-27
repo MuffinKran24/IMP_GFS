@@ -5,7 +5,7 @@
 - [https://en.wikipedia.org/wiki/ATmega328#]
 - [https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/ATmega48A-PA-88A-PA-168A-PA-328-P-DS-DS40002061B.pdf]
 - [https://en.wikipedia.org/wiki/AVR_microcontrollers]
-
+- [https://web.archive.org/web/20100217065617/http://smithsonianchips.si.edu/augarten/p38.htm]
 
 ## Bücher
 - Taschenbuch Mikroprozessortechnik von Thomas Beierlein und Olaf Hagenbruch
@@ -20,3 +20,4 @@
 5. [https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/ATMEGA328P-PU.jpg/500px-ATMEGA328P-PU.jpg]
 6. [https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Intel_C4004.jpg/500px-Intel_C4004.jpg]
 7. [https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/18MHZ_12MHZ_Crystal_110.jpg/500px-18MHZ_12MHZ_Crystal_110.jpg]
+8. [https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/TI_TMS1000NLP_1a.jpg/500px-TI_TMS1000NLP_1a.jpg]
