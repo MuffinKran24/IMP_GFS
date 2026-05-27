@@ -5,6 +5,6 @@
 - [ ] function to write on lcd
 - [ ] function to read temperature or humidity from dht
 
-```bash
+```sh
 make thermometer
 ```
