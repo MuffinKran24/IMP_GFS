@@ -21,3 +21,4 @@
 6. [https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Intel_C4004.jpg/500px-Intel_C4004.jpg]
 7. [https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/18MHZ_12MHZ_Crystal_110.jpg/500px-18MHZ_12MHZ_Crystal_110.jpg]
 8. [https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/TI_TMS1000NLP_1a.jpg/500px-TI_TMS1000NLP_1a.jpg]
+9. [https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpreview.redd.it%2Feldorado-electrodata-8c-with-extremely-early-tms-1802-nc-v0-vz0gcc513cjb1.jpg%3Fwidth%3D4032%26format%3Dpjpg%26auto%3Dwebp%26s%3D216a5f173f79104319f0ad2b2162b1798d68cc4c&f=1&nofb=1&ipt=eab39682a445fb7439e256c5a7a231d153356b6771310c5e6803bdc67561d195]
