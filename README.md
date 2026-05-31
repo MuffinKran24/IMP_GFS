@@ -4,6 +4,7 @@ Alle Dateien zu meiner GFS in Informatik.<br>
 
 # To-Do
 
-- [x] Geschichte der Mikrocontroller
+- [ ] Geschichte der Mikrocontroller
+    - [ ] moderner Mikrocontroller, Raspberry Pi Pico (Folie 10)
 - [ ] Verarbeitung von Daten (Beispiel DHT11)
 - [ ] Programmierung
