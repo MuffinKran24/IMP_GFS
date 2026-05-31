@@ -6,11 +6,12 @@
 - [https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/ATmega48A-PA-88A-PA-168A-PA-328-P-DS-DS40002061B.pdf]
 - [https://en.wikipedia.org/wiki/AVR_microcontrollers]
 - [https://web.archive.org/web/20100217065617/http://smithsonianchips.si.edu/augarten/p38.htm]
+- [https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9850x3d.html]
+- [https://en.wikipedia.org/wiki/Intel_4004]
 
 ## Bücher
 - Taschenbuch Mikroprozessortechnik von Thomas Beierlein und Olaf Hagenbruch
 - The C Programming Language 2. Auflage von Brian W. Kerningham und Dennis M. Ritchie
-
 
 ## Bilder
 1. [https://www.haase-cnc.de/thumbnail/7c/ce/95/1700311012/al1265profi_1000_1920x1920.jpg?ts=1700311019]
@@ -23,3 +24,4 @@
 8. [https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/TI_TMS1000NLP_1a.jpg/500px-TI_TMS1000NLP_1a.jpg]
 9. [https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpreview.redd.it%2Feldorado-electrodata-8c-with-extremely-early-tms-1802-nc-v0-vz0gcc513cjb1.jpg%3Fwidth%3D4032%26format%3Dpjpg%26auto%3Dwebp%26s%3D216a5f173f79104319f0ad2b2162b1798d68cc4c&f=1&nofb=1&ipt=eab39682a445fb7439e256c5a7a231d153356b6771310c5e6803bdc67561d195]
 10. [https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.electronicshub.org%2Fwp-content%2Fsmush-webp%2F2017%2F11%2FBasics-of-Microcontrollers-Image-1.jpg.webp&f=1&nofb=1&ipt=1901ea2dec7d194461aeedd058bc61d606a3ea7d56a901db18aa0892a35c1c40]
+11. [https://overclockers.ru/st/r/800/-/legacy/blog/413830/714295_O.jpg]
