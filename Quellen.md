@@ -5,7 +5,7 @@
 - https://en.wikipedia.org/wiki/ATmega328#
 - https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/ATmega48A-PA-88A-PA-168A-PA-328-P-DS-DS40002061B.pdf
 - https://en.wikipedia.org/wiki/AVR_microcontrollers
-- https://web.archive.org/web/20100217065617/http://smithsonianchips.si.edu/augarten/p38.html
+- https://web.archive.org/web/20100217065617/http://smithsonianchips.si.edu/augarten/p38.htm
 - https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9850x3d.html
 - https://en.wikipedia.org/wiki/Intel_4004
 - https://en.wikipedia.org/wiki/RP2040

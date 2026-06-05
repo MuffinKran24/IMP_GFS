@@ -15,12 +15,12 @@
 */
 
 #include <LiquidCrystal.h> // LCD-Bibliothek für das LCD hinzufügen
-#include <DHT.h> // DHT-Bibliothek für den Sensor hinzufügen
+#include <DHT.h> // DHT-Bibliothek für den DHT Sensor hinzufügen
 
 #define DHTPIN 8 // Rückgabe Pin des DHT definieren, in diesem Fall digital IO Pin 8
 #define DHTTYPE DHT11 // DHT-Typ definieren, in diesem Fall ist es der DHT11
 
-DHT dht(DHTPIN, DHTTYPE); // neues Objekt dht der Klasse DHT initialisieren
+DHT dht(DHTPIN, DHTTYPE);
 // initialize the library by associating any needed LCD interface pin
 // with the arduino pin number it is connected to
 const int rs = 12, en = 11, d4 = 5, d5 = 4, d6 = 3, d7 = 2;

@@ -6,11 +6,11 @@
 - [10K Potenziometer](https://www.conrad.de/de/p/piher-pt15nv02-103a2020-s-pt15nv02-103a2020-s-trimmer-linear-0-25-w-10-k-270-1-st-432024.html)
 
 ## Abhängigkeiten:
-- ### Arduino IDE
+### Arduino IDE
 - DHT sensor library (DHT Bibliothek)
 - LiquidCrystal library (LCD Bibliothek)
 
-- ### bare metal
+### bare metal
 - libc (C Standardbibliothek)
 - avrdude (Programm zum flashen des AVR-Chips auf dem Arduino)
 - avr-gcc (C Compiler für den AVR-Chip)
