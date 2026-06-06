@@ -8,8 +8,7 @@
 - https://web.archive.org/web/20100217065617/http://smithsonianchips.si.edu/augarten/p38.htm
 - https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9850x3d.html
 - https://en.wikipedia.org/wiki/Intel_4004
-- https://en.wikipedia.org/wiki/RP2040
-- https://www.raspberrypi.com/documentation/microcontrollers/microcontroller-chips.html#rp2040
+- https://en.wikipedia.org/wiki/RP2350
 
 ## Bücher
 - Taschenbuch Mikroprozessortechnik von Thomas Beierlein und Olaf Hagenbruch
@@ -27,4 +26,4 @@
 9. https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpreview.redd.it%2Feldorado-electrodata-8c-with-extremely-early-tms-1802-nc-v0-vz0gcc513cjb1.jpg%3Fwidth%3D4032%26format%3Dpjpg%26auto%3Dwebp%26s%3D216a5f173f79104319f0ad2b2162b1798d68cc4c&f=1&nofb=1&ipt=eab39682a445fb7439e256c5a7a231d153356b6771310c5e6803bdc67561d195
 10. https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.electronicshub.org%2Fwp-content%2Fsmush-webp%2F2017%2F11%2FBasics-of-Microcontrollers-Image-1.jpg.webp&f=1&nofb=1&ipt=1901ea2dec7d194461aeedd058bc61d606a3ea7d56a901db18aa0892a35c1c40
 11. https://overclockers.ru/st/r/800/-/legacy/blog/413830/714295_O.jpg
-12. https://www.raspberrypi.com/documentation/microcontrollers/images/rp2040.jpg?hash=f4c5a93996b1a3b3049bcd9a7511fd1b
+12. https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/DEV-26124-PICO-2-top_%28cropped%29.jpg/250px-DEV-26124-PICO-2-top_%28cropped%29.jpg
