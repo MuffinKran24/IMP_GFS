@@ -1,4 +1,4 @@
-// Ein einfaches Beispiel, welches die auf dem Board verbaute LED blinken lässt
+// ein einfaches Beispiel, welches die auf dem Board verbaute LED blinken lässt
 
 #include <avr/io.h> // IO Funktionen aus der avr-controller Bibliothek importieren
 #include <util/delay.h> // delay macro importieren
