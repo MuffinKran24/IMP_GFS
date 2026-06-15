@@ -11,7 +11,6 @@
 - LiquidCrystal library (LCD Bibliothek)
 
 ### bare metal
-- libc (C Standardbibliothek)
 - avrdude (Programm zum flashen des AVR-Chips auf dem Arduino)
 - avr-gcc (C Compiler für den AVR-Chip)
 - avr-libc (Standardbibliothek für den AVR-Chip)

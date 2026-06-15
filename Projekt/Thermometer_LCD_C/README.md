@@ -7,5 +7,5 @@
 - [ ] make makefile universal
 
 ```sh
-make thermometer
+make all
 ```

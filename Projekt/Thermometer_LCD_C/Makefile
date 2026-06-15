@@ -1,5 +1,9 @@
 # Compiler-Magie
 
+all: thermometer clean
+
+
+
 blink:
 	avr-gcc -Os -DF_CPU=16000000UL -mmcu=atmega328p -c -o main.o src/blink.c
 	avr-gcc -DF_CPU=16000000UL -mmcu=atmega328p -o main.bin main.o
