@@ -33,3 +33,4 @@ Alle Dateien zu meiner GFS in Informatik.<br>
 10. https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.electronicshub.org%2Fwp-content%2Fsmush-webp%2F2017%2F11%2FBasics-of-Microcontrollers-Image-1.jpg.webp&f=1&nofb=1&ipt=1901ea2dec7d194461aeedd058bc61d606a3ea7d56a901db18aa0892a35c1c40
 11. https://overclockers.ru/st/r/800/-/legacy/blog/413830/714295_O.jpg
 12. https://cdn-reichelt.de/bilder/web/artikel_ws/A300%2FRPI_RP2350B_NEW2025-07-30.jpg?type=Product&
+13. https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/ABasicComputer.svg/960px-ABasicComputer.svg.png

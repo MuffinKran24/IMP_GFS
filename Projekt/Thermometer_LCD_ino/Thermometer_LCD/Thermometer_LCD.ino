@@ -12,6 +12,10 @@
  * 10K resistor:
  * ends to +5V and ground
  * wiper to LCD VO pin (pin 3)
+
+ * DHT11 VCC pin to 5V
+ * DHT11 VSS pin to ground
+ * DHT11 data pin to digital pin 8
 */
 
 #include <LiquidCrystal.h> // LCD-Bibliothek für das LCD hinzufügen
@@ -53,15 +57,18 @@ void loop() {
   Serial.print(humidity);
   Serial.println(" %");
 
-  Serial.println("----------");
+  Serial.println("---");
 
-  delay(2000);
-
+  // Ausgeben der Werte auf dem LCD
   lcd.setCursor(0, 0); // der Cursor wird auf den ersten Platz in der ersten Zeile gesetzt
+  lcd.print("Temp: ");
   lcd.print(temperature); // das LCD zeigt die Temperatur in der ersten Zeile an
   lcd.print(" C");
 
   lcd.setCursor(0, 1); // der Cursor wird auf den ersten Platz in der zweiten Zeile gesetzt
+  lcd.print("Hum:  ");
   lcd.print(humidity); // das LCD zeigt die Luftfeuchtigkeit in der zweiten Zeile an
   lcd.print(" %");
+
+  delay(2000);
 }
