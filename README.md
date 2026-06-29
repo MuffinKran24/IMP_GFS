@@ -15,6 +15,7 @@ Alle Dateien zu meiner GFS in Informatik.<br>
 - https://en.wikipedia.org/wiki/Intel_4004
 - https://en.wikipedia.org/wiki/RP2350
 - https://en.wikipedia.org/wiki/Central_processing_unit#Structure_and_implementation
+- https://de.wikipedia.org/wiki/Eingebettetes_System
 
 ## Bücher
 - Taschenbuch Mikroprozessortechnik von Thomas Beierlein und Olaf Hagenbruch
